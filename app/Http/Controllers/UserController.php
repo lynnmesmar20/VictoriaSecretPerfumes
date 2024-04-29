@@ -29,4 +29,9 @@ class UserController extends Controller
     {
         return Str::random(40); 
     }
+
+    public function getUsers(){
+        $users = DB::table('users')->get();
+        return response()->json($users);
+    }
 }

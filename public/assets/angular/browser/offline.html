@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline</title>
+    <style>
+        
+        .flex {
+            display: flex;
+        }
+        .justify-center {
+            justify-content: center;
+        }
+        .items-center {
+            align-items: center;
+        }
+        .h-screen {
+            height: 100vh;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-xl {
+            font-size: 1.25rem;
+        }
+        .md\:text-2xl {
+            font-size: 1.5rem;
+        }
+        .font-bold {
+            font-weight: bold;
+        }
+        .mt-4 {
+            margin-top: 1rem;
+        }
+        .h-9 {
+            height: 2.25rem;
+        }
+        .md\:h-10 {
+            height: 2.5rem;
+        }
+    </style>
+
+</head>
+<body class="flex justify-center items-center h-screen">
+    <div class="text-center">
+        <img src="assets/logo.jpg" alt="Logo" class="h-9 md:h-10">
+        <h1 class="text-xl md:text-2xl font-bold mt-4">You're offline. Please check your internet connection.</h1>
+    </div>
+   
+    <script>
+        window.addEventListener('online', () => {
+            console.log('You are online');
+            window.location.href = location.origin; // Redirect to the root of the current origin
+        });
+    </script>
+</body>
+</html>

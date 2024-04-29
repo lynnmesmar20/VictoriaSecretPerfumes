@@ -1,0 +1,47 @@
+{
+    "header": {
+      "login": "تسجيل الدخول",
+      "language":"english",
+      "logout":"تسجيل خروج"
+    },
+    "Menus":{
+    
+         "header1" : "افضل العطور",
+          "header2":"اكثر المبيعات من رذاذ الجسم",
+          "header3":"المنتجات الجديدة",
+        "BodyMist": "رذاذ الجسم",
+        "BodyMist1": "تعويذة حب",
+        "BodyMist2": "الإستعجال",
+        "BodyMist3": "الحلويات",
+        "BodyMist4": "فانيلا بار",
+        "Perfums": "العطور",
+        "Perfums1": "قنبلة",
+        "Perfums2": "وردة بار",
+        "Perfums3": "تيز كاندي نوير",
+        "Perfums4": "الحب",
+        "BodyLotions": "مرطبات الجسم",
+        "BodyLotions1": "فانيلا بار",
+        "BodyLotions2": "إغواء نقي",
+        "BodyLotions3": "تعويذة الحب",
+        "BodyLotions4": "الوردي المحايد",
+        "ecommerce":"تسوق"
+  
+    },
+    "Login":{
+      "login1": "تسجيل الدخول",
+        "username":"الاسم",
+        "password":"كلمة السر"
+    },
+    "Product":{
+      "add":"زيادة منتج جديد",
+      "name_en":"(انجليزي)الاسم",
+      "name_ar":"(عربي) الاسم",
+      "Description_en":"(انجليزي)وصف المنتج",
+      "Description_ar":"وصف المنتج(عربي)",
+      "Price":"السعر",
+      "Quantity":"الكمية",
+      "add2":"زيادة منتج"
+    }
+
+  }
+  

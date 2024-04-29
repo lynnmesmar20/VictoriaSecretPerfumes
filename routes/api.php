@@ -23,6 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+
 Route::get('products',[ProductController::class,'getAllProducts']);
 
 Route::delete('products/{id}', [ProductController::class, 'deleteProduct']);

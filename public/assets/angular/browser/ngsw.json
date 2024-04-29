@@ -1,0 +1,132 @@
+{
+  "configVersion": 1,
+  "timestamp": 1714058662409,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/manifest.webmanifest",
+        "/offline.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/candy.jpg",
+        "/assets/decreasing-font.png",
+        "/assets/i18n/ar.json",
+        "/assets/i18n/en.json",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/increasing-font.png",
+        "/assets/logo.jpg",
+        "/assets/lovespell.jpg",
+        "/assets/package1.jpg",
+        "/assets/package2.jfif",
+        "/assets/package2.jpg",
+        "/assets/package3.jfif",
+        "/assets/package3.jpg",
+        "/assets/perfumes.jfif",
+        "/assets/rush.jpg",
+        "/assets/• @BabyGirl •.jfif"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "patterns": [
+        "\\/api\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "offline-content",
+      "patterns": [
+        "\\/offline\\.html"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 604800000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/candy.jpg": "126206f0fc7d68e8d9193f8c7189666b5d477141",
+    "/assets/decreasing-font.png": "33e968fe3f03556321b1b39bde240ba85ed68598",
+    "/assets/i18n/ar.json": "8e0f353695fe01bcc8a48709e80c1887a5d6a340",
+    "/assets/i18n/en.json": "8cd21fa1615e6244f1262190ad0782cc180b323b",
+    "/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/assets/increasing-font.png": "2bb8b73b58b52ef55f748a3924d97867c1037e80",
+    "/assets/logo.jpg": "190be43333932f3287b07cef1729cccb4254564b",
+    "/assets/lovespell.jpg": "70c244c3557d88fd58fd3e26e3d0f7eeab38721c",
+    "/assets/package1.jpg": "838aa23141619a84b9873c31cd9da3f554a5830a",
+    "/assets/package2.jfif": "a1fc469bb53d7d91ce34030a8211aa9245da55f3",
+    "/assets/package2.jpg": "dbb76b8372ea50935b8d1a365110a700a87d9367",
+    "/assets/package3.jfif": "0449d09ebabcc065c2775f61c52fd7e2e6f1be35",
+    "/assets/package3.jpg": "0c389f8ce60ab6747d23c150170b09061b7eb3d1",
+    "/assets/perfumes.jfif": "ce9f9dcec14f224b70845b34cc941b2d29a74084",
+    "/assets/rush.jpg": "46598061a9af4aadb61060f609c132336619849f",
+    "/assets/• @BabyGirl •.jfif": "d341ffc0688cebcdd271bf14d88cae8a09f2b4df",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/manifest.webmanifest": "a08c6448da1531fcb15d5edbdaf62d70b7a9cd8e",
+    "/offline.html": "96a5af99c68d3c9685816b21460424d6ff73d2a2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

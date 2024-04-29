@@ -1,0 +1,45 @@
+{
+    "header": {
+      "login": "Login",
+      "language": "العربية",
+       "logout":"LogOut"
+    },
+
+    "Menus":{
+      "header1":"Our best collection of Perfums:",
+      "header2":"Our best selling of body Mist",
+      "header3":"New collection of Body Lotions",
+    "BodyMist":"Body Mist",
+     "BodyMist1":"Love Spell",
+     "BodyMist2":"Rush",
+     "BodyMist3":"Candied",
+     "BodyMist4":"Bare Vanilla",
+      "Perfums":"Perfums",
+      "Perfums1":"Bombshell",
+      "Perfums2":"Bare Rose",
+      "Perfums3":"Tease Candy Noir",
+      "Perfums4":"Love",
+      "BodyLotions":"Body Lotions", 
+      "BodyLotions1":"Bare Vanilla",
+      "BodyLotions2" :"Pure Seduction",
+      "BodyLotions3":"Love Spell",
+      "BodyLotions4":"Rose Twilight",
+      "ecommerce":"Ecommerce"
+  },
+  "Login":{
+    "login1":"Login",
+      "username":"Username",
+      "password":"Password"
+  },
+  "Product":{
+    "add":"Add New Product",
+    "name_en":"Name (English)",
+    "name_ar":"Name (arabic)",
+    "Description_en":"Description (English)",
+    "Description_ar":"Description (arabic)",
+    "Price":"Price",
+    "Quantity":"Quantity",
+    "add2":"Add Product"
+  }
+  }
+  
