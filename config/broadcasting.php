@@ -29,7 +29,13 @@ return [
     */
 
     'connections' => [
-
+        'socketio' => [
+            'driver' => 'socketio',
+              'host' => env('SOCKET_IO_HOST', 'http://127.0.0.1'),
+                'port' => env('SOCKET_IO_PORT', 6001),
+                
+            
+        ],
         'pusher' => [
             'driver' => 'pusher',
             'key' => env('PUSHER_APP_KEY'),

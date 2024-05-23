@@ -31,8 +31,14 @@ Route::delete('products/{id}', [ProductController::class, 'deleteProduct']);
 Route::post('addproducts',[ProductController::class,'addProduct']);
 
 Route::post('login',[UserController::class,'login']);
+Route::post('logout', [UserController::class,'logout']);
+Route::get('newproduct/{id}', [ProductController::class, 'getProducts']);
 
 
+Route::get('notification', [UserController::class, 'getNotifications']);
+Route::delete('notification/{productId}/{userId}', [UserController::class, 'deleteNotification']);
+
+Route::delete('notification/{userId}', [UserController::class, 'deleteAllNotification']);
 
 Route::post('ecommerce', [CartController::class, 'getCarts']);
 Route::post('add', [CartController::class, 'addToCart']);

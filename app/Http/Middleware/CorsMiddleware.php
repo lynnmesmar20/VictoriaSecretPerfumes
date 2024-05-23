@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
-class AuthenticateToken
+class CorsMiddleware
 {
     /**
      * Handle an incoming request.
@@ -16,20 +16,9 @@ class AuthenticateToken
      */
     public function handle(Request $request, Closure $next)
     {
-        $token = $request->header('Authorization');
-
-        if (!$token) {
-            return response()->json(['error' => 'Unauthorized'], 401);
-        }
-
-        $user = DB::table('users')->where('remember_token', $token)->first();
-
-        if (!$user) {
-            return response()->json(['error' => 'Invalid token'], 401);
-        }
-
-        $request->user = $user;
-
-        return $next($request);
+        return $next($request)
+            ->header('Access-Control-Allow-Origin', '*')
+            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+            ->header('Access-Control-Allow-Headers', 'Origin, Content-Type, Accept, Authorization');
     }
 }
